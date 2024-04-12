@@ -1,0 +1,91 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 4vw;
+  border-radius: 6px;
+  margin: 4vw;
+  padding: 4vw;
+  box-sizing: border-box;
+}
+
+.card__top {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 2vw;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(129, 127, 127);
+}
+.card__top_title {
+  font-size: 8vw;
+}
+.card__top_image {
+  width: 10vw;
+}
+.card__box {
+  display: flex;
+  flex-direction: row;
+  gap: 20vw;
+  padding-bottom: 2vw;
+}
+
+.card__description {
+  display: flex;
+  flex-direction: column;
+  gap: 4vw;
+  border-bottom: 1px solid rgb(129, 127, 127);
+}
+.card__description_score {
+  font-size: 6vw;
+  margin-top: 4vw;
+  margin-bottom: 4vw;
+}
+.card__description_span {
+  font-size: 4vw;
+}
+.card__cashback,
+.card__level {
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+}
+.card__cashback_text,
+.card__level_text {
+  font-size: 3vw;
+}
+.card__cashback_percent,
+.card__level_degree {
+  font-size: 4vw;
+}
+.card__bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2vw;
+}
+.card__bottom_show,
+.card__bottom_delete {
+  width: 8vw;
+  height: 8vw;
+  background-color: transparent;
+  border: none;
+}
+
+.card__bottom_test svg{
+  fill: #000000;
+}
+
+.card__bottom_details {
+  background-color: #efefef;
+  color: #2688eb;
+  padding: 2vw 4vw;
+  border-radius: 6px;
+  border: none;
+  box-sizing: border-box;
+}
+
+.card__bottom_details:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
